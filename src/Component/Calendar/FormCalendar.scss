@@ -1,0 +1,17 @@
+.two-elements-container {
+    display: flex;
+
+    padding-top: 100px;
+    /* Hiển thị các phần tử dọc theo cột */
+
+    .element1 {
+        flex: 2;
+        // width: 00px;
+        // height: 600px;
+    }
+
+    .element2 {
+        flex: 2;
+        padding: 15px;
+    }
+}

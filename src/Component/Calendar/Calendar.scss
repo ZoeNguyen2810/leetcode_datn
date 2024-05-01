@@ -1,0 +1,28 @@
+.events {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.events .ant-badge-status {
+    width: 100%;
+    overflow: hidden;
+    font-size: 12px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.notes-month {
+    font-size: 28px;
+    text-align: center;
+}
+
+.notes-month section {
+    font-size: 28px;
+}
+
+.Calendar-container {
+    width: 90%; // Thay đổi giá trị này để đạt được kích thước mong muốn
+    max-width: 1500px; // Giữ kích thước tối đa không vượt quá 1500px
+    height: 500px;
+}

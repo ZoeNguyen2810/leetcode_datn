@@ -1,0 +1,36 @@
+.LoginForm {
+    padding-top: 200px;
+    display: table-caption;
+    margin-left: 650px;
+
+    .title {
+        font-size: 25px;
+        color: #1677ff;
+    }
+
+    .inputLogin {
+        width: 350px;
+        height: 20px;
+        border-color: #1677ff;
+        border-radius: 5px;
+    }
+
+    .buttonLogin {
+        margin-left: 70px;
+        margin-top: 20px;
+        background-color: #1677ff;
+        width: 100px;
+        height: 40px;
+        color: white;
+        font-size: 18px;
+        border-radius: 5px;
+        margin-left: 120px;
+    }
+
+    .text {
+        color: #1677ff;
+        font-size: 16px;
+        margin-top: 10px;
+    }
+
+}

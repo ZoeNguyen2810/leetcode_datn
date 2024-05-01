@@ -1,0 +1,32 @@
+.topnav {
+    justify-content: space-between;
+    color: white;
+    list-style-type: none;
+    font-size: 20px;
+    background: linear-gradient(to left, #7a0404, #262524);
+    position: fixed;
+    padding: 20px 180px 20px 50%;
+    width: 100%;
+
+
+    .top-container {
+        // margin-left: 50%;
+
+        .a {
+            color: white;
+            padding-right: 40px;
+            text-decoration: none;
+            font-family: Arial, Helvetica, sans-serif;
+            margin-right: 10px;
+
+            i {
+                font-size: 20px;
+
+            }
+        }
+
+        a.active {
+            color: rgb(216, 172, 90);
+        }
+    }
+}

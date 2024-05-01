@@ -1,0 +1,25 @@
+.Booking-container {
+    display: flex;
+    padding-top: 60px;
+
+    .Symptom {
+        flex: 2;
+        /* Chiếm 1 phần */
+        // background-color: #e0e0e0;
+        /* Màu nền của phần Symptom */
+        padding: 10px;
+        margin-left: 100px;
+        /* Để tăng khoảng cách nếu cần thiết */
+    }
+
+    .Booking {
+        flex: 2;
+        /* Chiếm 2 phần */
+        // background-color: #c0c;
+        /* Màu nền của phần Booking */
+        padding: 10px;
+        margin-left: 100px;
+        margin-top: 40px;
+        /* Để tăng khoảng cách nếu cần thiết */
+    }
+}
